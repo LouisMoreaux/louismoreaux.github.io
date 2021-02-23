@@ -3,6 +3,10 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Hello, my name is Louis, I'm a French Oracle APEX developer from Paris. I have been working with the Oracle database since 2013 and with APEX since 2017, and to be honest, I don't want to do anything else.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I work for a company called [AgiLab](https://www.agilab.com/) which develops software for laboratories and pharmaceutical companies. We have developed interesting integrations with APEX, such as ONLYOFFICE Docs to view and edit Office documents or JChem to manipulate chemical structures.
+
+I am also an active contributor to the [Flows for APEX](https://github.com/mt-ag/apex-flowsforapex) project, which is a BPMN workflow engine written entirely in PL/SQL and designed to work with Oracle's APEX applications.
+
+I started this blog because I want to learn and share about Oracle APEX.
