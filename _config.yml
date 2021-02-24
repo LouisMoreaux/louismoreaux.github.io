@@ -14,13 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Louis Moreaux
+subtitle: "Oracle APEX and other stuff"
+
 email: moreaux.louis@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Just a little bit of APEX
+description: "Simple blog about Oracle APEX"
 twitter_username: moreaux_louis
 github_username: LouisMoreaux
 minimal_mistakes_skin: mint
 search: true
+
+locale: "en-US"
 
 # Build settings
 markdown: kramdown
@@ -29,7 +32,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Paris
 
 include:
   - _pages
@@ -69,6 +72,9 @@ author:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/louis-moreaux/"
+    - label: "Email"
+      icon: "fa fa-fw fa-envelope-square"
+      url: "mailto:moreaux.louis@gmail.com"
 
 footer:
   links:
@@ -89,17 +95,21 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
+      show_date: true
+
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
+      classes: wide
       author_profile: true
 
 category_archive:
@@ -114,3 +124,8 @@ analytics:
   google:
     tracking_id: "G-B1M7QLTJKK"
     anonymize_ip: true # default
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "louismoreaux"
