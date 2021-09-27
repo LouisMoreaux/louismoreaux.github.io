@@ -27,6 +27,10 @@ repository: LouisMoreaux/blog
 
 locale: "en-US"
 
+languages: ["en", "fr"]
+exclude_from_localizations: ["javascript", "images", "css"]
+
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
