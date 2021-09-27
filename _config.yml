@@ -23,6 +23,8 @@ github_username: LouisMoreaux
 minimal_mistakes_skin: mint
 search: true
 
+repository: LouisMoreaux/blog
+
 locale: "en-US"
 
 # Build settings
