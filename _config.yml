@@ -25,11 +25,7 @@ search: true
 
 repository: LouisMoreaux/louismoreaux.github.io
 
-locale: "fr-FR"
-
-languages: ["en", "fr"]
-exclude_from_localizations: ["javascript", "images", "css"]
-
+locale: "en"
 
 # Build settings
 markdown: kramdown
@@ -93,7 +89,7 @@ footer:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/louis-moreaux/"
-
+    
 defaults:
   # _posts
   - scope:
