@@ -23,9 +23,9 @@ github_username: LouisMoreaux
 minimal_mistakes_skin: mint
 search: true
 
-repository: LouisMoreaux/blog
+repository: LouisMoreaux/louismoreaux.github.io
 
-locale: "en-US"
+locale: "fr-FR"
 
 languages: ["en", "fr"]
 exclude_from_localizations: ["javascript", "images", "css"]
@@ -35,7 +35,7 @@ exclude_from_localizations: ["javascript", "images", "css"]
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:categories/:title/
+permalink: /:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Paris
@@ -132,6 +132,11 @@ analytics:
     anonymize_ip: true # default
 
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "louismoreaux"
+  provider: "giscus"
+  giscus:
+    repo_id              : "LouisMoreaux/louismoreaux.github.io"
+    category_name        : "General"
+    category_id          : "DIC_kwDOGH0GDs4B_N-4"
+    discussion_term      : "pathname"
+    reactions_enabled    : "1"
+    theme                : "light"
