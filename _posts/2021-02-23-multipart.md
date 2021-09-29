@@ -1,5 +1,6 @@
 ---
 title: "Oracle APEX 20.2 and multipart/form-data"
+excerpt: "Before APEX 20.2, APEX_WEB_SERVICE package didn’t support multipart/form-data. If like me, you had to reach a web service which accept only this type of requ..."
 last_modified_at: 2021-02-23T23:00:00+01:00
 categories:
   - Oracle APEX
@@ -9,6 +10,7 @@ tags:
   - web service
 ---
 [Version française](https://louismoreaux.github.io/fr/multipart)
+
 Before APEX 20.2, APEX_WEB_SERVICE package didn’t support multipart/form-data. If like me, you had to reach a web service which accept only this type of request body, you had to use the ULT_HTTP package and create the body by yourself. Nick Buytaert made a good [post](https://apexplained.wordpress.com/2016/03/21/utl_http-and-a-multipartform-data-request-body/) about it on his blog post (which helped me a lot).
 
 But thanks to the APEX Team, the [APEX_WEB_SERVICE](https://docs.oracle.com/en/database/oracle/application-express/20.2/aeapi/APEX_WEB_SERVICE.html) package in release 20.2 introduce the support of multipart/form-data. The creation of this type of body have never been so simple.
