@@ -128,12 +128,6 @@ analytics:
     anonymize_ip: true # default
 
 comments:
-  provider: "giscus"
-  giscus:
-    repo_id              : "LouisMoreaux/louismoreaux.github.io"
-    category_name        : "Announcements"
-    category_id          : "DIC_kwDOGH0GDs4B_N-3"
-    discussion_term      : "pathname"
-    reactions_enabled    : "1"
-    theme                : "light"
-    
+  provider: "disqus"
+  disqus:
+    shortname: "disqus_SHnM8c45Sx"
