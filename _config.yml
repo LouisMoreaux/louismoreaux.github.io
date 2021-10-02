@@ -132,4 +132,4 @@ comments:
   provider  : "staticman_v2"
   staticman:
     branch    : "master"
-    endpoint  : https://staticman-lm.herokuapp.com/v3/entry/github/
+    endpoint  : https://staticman-lm.herokuapp.com/v3/entry/github/gh-pages/comments
