@@ -127,7 +127,9 @@ analytics:
     tracking_id: "G-B1M7QLTJKK"
     anonymize_ip: true # default
 
+
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "louismoreaux-github-io"
+  provider  : "staticman_v2"
+  staticman:
+    branch    : "master"
+    endpoint  : https://staticman-lm.herokuapp.com/v3/entry/github/
